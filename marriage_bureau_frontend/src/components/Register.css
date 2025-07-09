@@ -1,0 +1,79 @@
+/* Full page center alignment (scrollable) */
+.register-container {
+  min-height: 100vh;               /* ✅ Changed from height to min-height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;                   /* ✅ More breathing room */
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  overflow-y: auto;                /* ✅ Allow scrolling if content is taller */
+}
+
+/* Inner card styling */
+.register-card {
+  max-width: 450px;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+.register-card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Input & textarea styling */
+.register-card input,
+.register-card textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Profile file input */
+.register-card input[type="file"] {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Submit button styling */
+.register-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.register-card button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Adjust for small screens */
+@media (max-width: 480px) {
+  .register-card {
+    padding: 15px;
+  }
+
+  .register-card h2 {
+    font-size: 20px;
+  }
+
+  .register-card input,
+  .register-card textarea {
+    font-size: 13px;
+  }
+}
