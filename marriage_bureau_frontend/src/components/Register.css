@@ -1,13 +1,13 @@
-/* Full page center alignment (scrollable) */
+
 .register-container {
-  min-height: 100vh;               /* ✅ Changed from height to min-height */
+  min-height: 100vh;              
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;                   /* ✅ More breathing room */
+  padding: 20px;                   
   box-sizing: border-box;
   background-color: #f9f9f9;
-  overflow-y: auto;                /* ✅ Allow scrolling if content is taller */
+  overflow-y: auto;             
 }
 
 /* Inner card styling */
