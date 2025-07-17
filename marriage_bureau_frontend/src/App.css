@@ -1,15 +1,15 @@
-/* Global reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: beige; */
+  
 }
 
 html, body {
   height: 100%;
   font-family: sans-serif;
-  overflow-x: hidden; /* Prevent unwanted horizontal scroll */
+  overflow-x: hidden; 
   
 }
 
