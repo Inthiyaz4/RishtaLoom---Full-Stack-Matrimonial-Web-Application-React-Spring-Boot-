@@ -22,22 +22,22 @@
   margin-top: 2rem;
   border-radius: 8px;
   overflow: hidden;
-  height: 550px; /* ✅ Set fixed height */
-  background-color: black; /* Better for portrait image fit */
+  height: 550px;
+  background-color: black;
 }
 
-/* ✅ Final fix for portrait images */
+
 .carousel img {
   width: 100%;
   height: 100%;
-  object-fit: contain;       /* ✅ Show full image without crop */
+  object-fit: contain;     
   object-position: center;
   border-radius: 8px;
   display: block;
   background-color: black;
 }
 
-/* Optional: Caption styling */
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
