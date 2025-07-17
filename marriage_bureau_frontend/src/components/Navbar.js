@@ -24,7 +24,7 @@ export default function Navbar() {
         {!isLoggedIn && <Link to="/login">Login</Link>}
         {isLoggedIn && <Link to="/customers">Customers</Link>}
         <Link to="/contact">Contact</Link>
-        {isLoggedIn && <Link to="/user">MyProfile</Link>} {/* ✅ MyProfile at end */}
+        {isLoggedIn && <Link to="/user">MyProfile</Link>}
       </div>
     </nav>
   );
