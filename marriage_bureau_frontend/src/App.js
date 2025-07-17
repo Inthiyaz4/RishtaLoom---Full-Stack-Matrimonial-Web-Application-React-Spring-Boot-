@@ -8,7 +8,7 @@ import ProfileDetails from './components/ProfileDetails';
 import Contact from './components/Contact';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import MyProfile from './components/MyProfile'; // ✅ New import
+import MyProfile from './components/MyProfile';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
